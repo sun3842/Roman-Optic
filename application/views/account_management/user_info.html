@@ -1,0 +1,201 @@
+<link type="text/css" rel="stylesheet" href="<?php echo base_url('assets/app_assets/plugins//datetimepicker/jquery.datetimepicker.css')?>">
+<style type="text/css" rel="stylesheet">
+
+    .row>div{
+        margin: 4px 0 12px 0;
+    }
+
+
+    .attribute-variable > span {
+        margin: 5px 10px 0 0;
+    }
+
+
+    input[type='radio']{
+        width: 25px;
+        border: 4px solid #35C9A7;
+        color: white;
+    }
+
+
+
+
+
+    @media screen and (max-width: 720px) {
+        .attribute-details {
+            margin-left: 0;
+        }
+    }
+
+    .btn-common-post-event{
+    color: white;
+    border: none;
+    background-color: #35C9A7;
+    padding: 5px 5em 5px 5em;
+    -webkit-box-shadow: -1px 5px 15px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 5px 15px -5px rgba(0,0,0,0.75);
+    box-shadow: -1px 5px 15px -5px rgba(0,0,0,0.75);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+</style>
+
+<div class="content">
+    <h4 class="text-center"><?php echo date('d F Y (l)')?></h4>
+
+    <div class="row">
+        <div class="col-12 text-center my-5">
+            <label class="page-heading ">UPDATE LOGIN INFO</label>
+            <a href="#" class="btn-back" style="color: #35C9A7"><i class="fas fa-chevron-left"></i> BACK</a>
+        </div>
+    </div>
+
+
+    <div class="row ">
+
+            <div class="col-12">
+                <label class="text-large">FIRSTNAME:</label>
+            </div>
+
+            <div class="col-12 ">
+                <label class="text-large">LASTNAME:</label>
+            </div>
+
+            <div class="col-12">
+                <label class="text-large">PHONE NO.:</label>
+            </div>
+
+            <div class="col-12 ">
+                <label class="text-large">EMAIL:</label>
+            </div>
+
+            <div class="col-12">
+                <label class="text-large">ADDRESS:</label>
+            </div>
+
+
+
+        <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 my-5">
+            <button onclick="update_info()" class="btn-common-post-event">UPDATE INFO</button>
+        </div>
+
+        <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 my-5">
+            <button onclick="change_password()" class="btn-common-post-event">CHANGE PASSWORD</button>
+        </div>
+
+
+
+    </div>
+
+</div>
+
+
+
+<div class="modal fade bd-example-modal-lg" id="change_password" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header" >
+                <h5 class="dialog_header text-align-center" id="exampleModalLongTitle"><center id="service_name">CHANGE PASSWORD!!!</center></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" style="color: #fff">&times;</span>
+                </button>
+            </div>
+
+            <div class="dialog_margin">
+
+                <div class="row p-5">
+                    <div class="col-12">
+                        <label class="text-small">PASSWORD<span class="text-red">*</span></label>
+                        <input type="password" class="form-control">
+                    </div>
+
+                    <div class="col-12">
+                        <label class="text-small">RE-TYPE PASSWORD<span class="text-red">*</span></label>
+                        <input type="password" class="form-control">
+                    </div>
+                </div>
+
+
+                </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="modal fade bd-example-modal-lg" id="update_info" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header" >
+                <h5 class="dialog_header text-align-center" id="exampleModalLongTitle"><center id="service_name">UPDATE INFO !!!</center></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" style="color: #fff">&times;</span>
+                </button>
+            </div>
+
+            <div class="dialog_margin">
+
+                <div class="row p-5">
+                    <div class="col-12">
+                        <label class="text-small">USERNAME <span class="text-red">*</span></label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <label class="text-small">FIRSTNAME<span class="text-red">*</span></label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <label class="text-small">LASTNAME<span class="text-red">*</span></label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <label class="text-small">PHONE NO.<span class="text-red">*</span></label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <label class="text-small">EMAIL<span class="text-red">*</span></label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="col-12">
+                        <label class="text-small">ADDRESS<span class="text-red">*</span></label>
+                        <textarea></textarea>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<script type="text/javascript" rel="script" src="<?php echo base_url('assets/app_assets/plugins//datetimepicker/jquery.datetimepicker.full.js')?>"></script>
+
+
+<script type="text/javascript" rel="script">
+
+
+
+    function update_info() {
+        $('#update_info').modal('show');
+    }
+
+    function change_password() {
+        $('#change_password').modal('show');
+    }
+    
+
+     
+</script>
+
+
+

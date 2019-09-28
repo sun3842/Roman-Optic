@@ -1,0 +1,32 @@
+<?php
+
+$lang['job']='JOB';
+$lang['create_job']='CREATE JOB';
+$lang['job_title']='JOB TITLE';
+$lang['job_context']='JOB CONTEXT';
+$lang['job_educational_requirement']='JOB EDUCATIONAL REQUIREMENT';
+$lang['job_experience_requirement']='JOB EXPERIENCE REQUIREMENT';
+$lang['currency_name']='CURRENCY NAME';
+$lang['job_position']='JOB POSITION';
+$lang['employment_status']='EMPLOYMENT STATUS';
+$lang['deadline_time']='DEADLINE TIME';
+$lang['job_location']='JOB LOCATION';
+$lang['salary_negotiable']='Salary Negotiable';
+$lang['confirm']='CONFIRM';
+$lang['job']='JOB';
+$lang['back']='BACK';
+$lang['job_list']='JOB LIST';
+$lang['date']='DATE';
+$lang['action']='ACTION';
+$lang['delete_job_info']='DELETE JOB INFO';
+$lang['delete']='DELETE';
+$lang['search']='SEARCH';
+$lang['job_details']='JOB DETAILS';
+$lang['there_will_be_one_sit_vacant_for_salesman']='THERE WILL BE ONE SIT VACANT FOR SALESMAN';
+$lang['job_experience']='JOB EXPERIENCE'; 
+$lang['salary_range']='SALARY RANGE';
+$lang['deadline']='DEADLINE';
+$lang['are_you_sure_to_delete_this_job_info']='Are you You sure to delete this Job Info ???';
+$lang['not_negotiable']='NOT NEGOTIABLE';
+$lang['negotiable']='NEGOTIABLE';
+$lang['choose_salary_range']='CHOOSE SALARY RANGE';

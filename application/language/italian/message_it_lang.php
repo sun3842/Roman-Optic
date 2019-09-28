@@ -1,0 +1,39 @@
+<?php
+
+$lang['message']='MESSAGE';
+$lang['back']='BACK';
+$lang['create_message']='CREATE MESSAGE';
+$lang['general_message']='GENERAL MESSAGE';
+$lang['target_message']='TARGET MESSAGE';
+$lang['message_title']='MESSAGE TITLE';
+$lang['message_description']='MESSAGE DESCRIPTION';
+$lang['send_push_notification']='Send push notification';
+$lang['confirm']='CONFIRM';
+$lang['who_will_get_this_message']='WHO WILL GET THIS MESSAGE';
+$lang['gender']='GENDER';
+$lang['men']='MEN';
+$lang['women']='WOMEN';
+$lang['select_city']='SELECT CITY';
+$lang['select_occupation']='SELECT OCCUPATION';
+$lang['select_marital_status']='SELECT MARITAL STATUS';
+$lang['choose_age_limite']='CHOOSE AGE LIMITE  ';
+$lang['choose_birthdate']='CHOOSE BIRTDATE';
+$lang['match_all_condition']='Match all condition';
+$lang['date']='DATE';
+$lang['title']='TITLE';
+$lang['type']='TYPE';
+$lang['age']='AGE :';
+$lang['to']='TO';
+$lang['more']='MORE';
+$lang['action']='ACTION';
+$lang['confirm']='CONFIRM';
+$lang['search']='SEARCH';
+$lang['general']='General';
+$lang['personal']='Personal';
+$lang['target']='Target';
+$lang['message_details']='MESSAGE DETAILS';
+$lang['who_get_message']='Who get Message:';
+$lang['delete_message']='Delete Message';
+$lang['are_you_sure_to_delete_this_message']='Are you You sure to delete this Message ???';
+$lang['select_date']='Select Date';
+
